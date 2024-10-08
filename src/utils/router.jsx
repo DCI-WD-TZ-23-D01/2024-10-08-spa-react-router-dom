@@ -5,10 +5,14 @@ import { Dashboard } from "../pages/Dashboard";
 export const routes = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
-  },
-  {
-    path: "/dashboard",
-    element: <Dashboard />,
+    element: <Layout />,
+    children: [
+        
+        {
+          path: "/dashboard",
+          element: <Dashboard />,
+        },
+
+    ]
   },
 ]);
