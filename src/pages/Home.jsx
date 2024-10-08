@@ -2,9 +2,8 @@ import { NavLink } from 'react-router-dom';
 
 export const Home = () => {
   return (
-    <>
+    <main>
       <h1>Home</h1>
-      <NavLink to="/dashboard">Go to Dashboard</NavLink>
-    </>
+    </main>
   );
 };
