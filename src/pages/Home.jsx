@@ -1,7 +1,14 @@
 export const Home = () => {
-  return <h1>Home</h1>;
+  return (
+    <div>
+      {' '}
+      <h1>Home</h1>
+      <p>
+        <Link to="/Dashboard">Go to Dashboard</Link>
+      </p>
+      ;
+    </div>
+  );
 };
 
-export const Dashboard = () => {
-  return <h2>Dashboard</h2>;
-};
+export default Home;
