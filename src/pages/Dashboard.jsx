@@ -1,13 +1,10 @@
 export const Dashboard = () => {
   return (
-    <div>
-      {' '}
+    <main>
       <h2>Dashboard</h2>
-      <p>
-        <Link to="/Home">Go to Home</Link>
-      </p>
-      ;
-    </div>
+
+      <Link to="/">Go to Home</Link>
+    </main>
   );
 };
-export default Dashboard;
+//export default Dashboard;

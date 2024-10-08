@@ -4,10 +4,16 @@ import { Dashboard } from '../pages/Home';
 export const routes = createBrowserRouter([
   {
     path: '/',
-    element: <Home />,
-  },
-  {
-    path: '/dashboard',
-    element: <Dashboard />,
+    element: <Layout />,
+    children: [
+      {
+        path: '/Home',
+        element: <Home />,
+      },
+      {
+        path: '/Dashboard',
+        element: <Dashboard />,
+      },
+    ],
   },
 ]);
