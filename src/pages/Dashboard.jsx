@@ -4,7 +4,7 @@ export const Dashboard = () => {
         <h2>Hello Dashboard</h2>
 
 
-        <button> <NavLink to='/'>Link to Home</NavLink></button>
+
 
     </>)
 
