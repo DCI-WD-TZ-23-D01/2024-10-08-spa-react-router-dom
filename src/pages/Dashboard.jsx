@@ -1,12 +1,10 @@
-import React from 'react';
+import { NavLink } from 'react-router-dom';
 
-const Dashboard = () => {
+export const Dashboard = () => {
   return (
-    <div>
+    <>
       <h1>Dashboard</h1>
-      na
-    </div>
+      <NavLink to="/">Home</NavLink>
+    </>
   );
 };
-
-export default Dashboard;
