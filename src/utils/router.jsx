@@ -6,4 +6,4 @@ export const routes = createBrowserRouter([
         path: '/',
         element: <Home />,
     },
-])
+]);
