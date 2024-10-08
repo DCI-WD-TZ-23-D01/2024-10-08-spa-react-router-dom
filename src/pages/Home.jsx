@@ -1,4 +1,10 @@
+import { Link } from "react-router-dom";
+
 export const Home = () => {
-    return <><h1>Home</h1> 
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic laboriosam facere reprehenderit amet recusandae dolorem corrupti error eum veniam porro? Corporis incidunt animi quas ea et perferendis. Consectetur, nam officia quaerat ut ex vitae eum cupiditate at excepturi cumque minus sint delectus placeat veritatis repudiandae necessitatibus id. Ullam a voluptatem doloribus quidem laboriosam ex excepturi nostrum deleniti quos rem autem quae numquam beatae placeat iste, reiciendis et. Doloremque aperiam vel asperiores eaque nulla perferendis nesciunt cupiditate dignissimos at eos laborum obcaecati doloribus, facere illo velit. Vero voluptatem natus temporibus quo, esse rerum labore in maiores, voluptatum iusto quos expedita dolores!</p></>;
+  return (
+    <main>
+      <Link to="/dashboard">Dashboard</Link>
+      <h1>Home</h1>
+    </main>
+  );
 };
